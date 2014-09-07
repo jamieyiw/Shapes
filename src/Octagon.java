@@ -17,7 +17,7 @@ public class Octagon extends Shape{
 	}
 	
 	double getArea() { 
-		return 8 * Base * Height + (1 + Math.sqrt(2)) * Math.pow(2, Base);
+		return 8 * Base * Height + 4 * (1 + Math.sqrt(2)) * Math.pow(2, Base);
 	}
 	double getPerimeter () {
 		return Base * 8;
